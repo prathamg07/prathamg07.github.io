@@ -3,15 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Personal profile of Pratham Gupta, Information Technology student at Manipal Institute of Technology.">
+  <meta name="description" content="Pratham Gupta, full-stack developer and B.Tech Information Technology student at Manipal Institute of Technology.">
   <meta name="author" content="Pratham Gupta">
-  <title>Pratham Gupta | Profile</title>
+  <title>Pratham Gupta | Full-Stack Developer</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <nav>
     <div class="container">
+      <a class="brand" href="#top">Pratham Gupta</a>
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#education">Education</a></li>
@@ -26,199 +27,389 @@
 
   <header id="top">
     <div class="container">
-      <img class="photo" src="images/profile.png" alt="Portrait of Pratham Gupta">
-      <h1>Pratham Gupta</h1>
-      <p class="intro">I am a third-year Information Technology student at Manipal Institute of Technology. I build apps that make public services easier to reach, and I help run the college Entrepreneurship Cell.</p>
-      <p class="place">From Chennai, studying in Manipal, Karnataka.</p>
+
+      <div class="hero-main">
+        <div class="hero-photo">
+          <img class="photo" src="profile.png" alt="Portrait of Pratham Gupta">
+        </div>
+        <div class="hero-text">
+          <h1>Pratham Gupta</h1>
+          <p class="role">Full-stack developer. Vice Chairperson, E-Cell, MIT Manipal.</p>
+          <p class="intro">Third-year B.Tech Information Technology student at Manipal Institute of Technology. I build mobile and web products with React Native, Node.js and Azure AI, and I have taken four of them in front of hackathon judges.</p>
+          <div class="actions">
+            <a class="btn" href="#projects">View projects</a>
+            <a class="btn btn-light" href="mailto:pratham.pg04@gmail.com">Email me</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stat">
+          <p class="stat-number">Top 10</p>
+          <p class="stat-label">of 350+ teams, Microsoft AI Unlocked 2026</p>
+        </div>
+        <div class="stat">
+          <p class="stat-number">2</p>
+          <p class="stat-label">first-place hackathon finishes</p>
+        </div>
+        <div class="stat">
+          <p class="stat-number">8.79</p>
+          <p class="stat-label"><abbr title="Cumulative Grade Point Average">CGPA</abbr> out of 10, MIT Manipal</p>
+        </div>
+        <div class="stat">
+          <p class="stat-number">1903</p>
+          <p class="stat-label">All India Rank, <abbr title="Manipal Entrance Test">MET</abbr> 2024</p>
+        </div>
+      </div>
+
     </div>
   </header>
 
-  <div class="container">
-
-    <section id="about">
-      <h2>About me</h2>
-      <div class="content">
-        <p>I like building software that solves a problem I can point to. Most of my projects started at hackathons and grew from there. Bharat Setu, an app that helps citizens file and track complaints with local government, reached the final ten of more than 350 teams at Microsoft AI Unlocked 2026.</p>
-        <p>Outside of code, I am the Vice Chairperson of E-Cell at MIT Manipal, where I have led marketing teams, hosted live shows and worked with students from more than 12 colleges on a startup policy paper.</p>
-        <p>I speak English and Hindi fluently, and conversational Tamil.</p>
+  <section id="about">
+    <div class="container">
+      <div class="section-head"><h2>About me</h2></div>
+      <div class="row">
+        <div class="about-text">
+          <p>I am a full-stack developer in my third year of B.Tech Information Technology at Manipal Institute of Technology. I build products end to end: React Native and React on the front, Node.js and Express behind them, and Azure AI services where the product needs language, vision or search.</p>
+          <p>My work has been tested in front of judges: a top 10 finish among more than 350 teams at Microsoft AI Unlocked 2026, two first-place hackathon results and a top 10 at the Honeywell Hackathon.</p>
+          <p>Alongside engineering I serve as Vice Chairperson of E-Cell, MIT Manipal, where I lead teams, work with sponsors and present to large audiences.</p>
+        </div>
+        <dl class="glance">
+          <dt>Based in</dt>
+          <dd>Manipal, Karnataka. Home city Chennai.</dd>
+          <dt>Studying</dt>
+          <dd>B.Tech Information Technology, class of 2028</dd>
+          <dt>Current role</dt>
+          <dd>Vice Chairperson, E-Cell, MIT Manipal</dd>
+          <dt>Languages</dt>
+          <dd>English, Hindi, Tamil (conversational)</dd>
+          <dt>Open to</dt>
+          <dd>Summer 2027 software engineering internships</dd>
+        </dl>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="education">
-      <h2>Education</h2>
-      <div class="content">
-        <div class="table-wrap">
+  <section id="education" class="band">
+    <div class="container">
+      <div class="section-head"><h2>Education</h2></div>
+      <div class="card">
+        <div class="edu-main">
+          <h3>B.Tech, Information Technology</h3>
+          <p class="org">Manipal Institute of Technology, 2024 to 2028</p>
+          <p class="desc">Admitted through MET 2024 with All India Rank 1903 among more than 1,00,000 candidates, on a merit scholarship. Current CGPA 8.79 out of 10.</p>
+          <h4>Coursework</h4>
+          <ul class="tags">
+            <li>Data Structures and Algorithms</li>
+            <li>Operating Systems</li>
+            <li>Computer Networks</li>
+            <li>Database Management Systems</li>
+            <li>Object-Oriented Programming</li>
+            <li>Software Engineering</li>
+            <li>Probability and Statistics</li>
+          </ul>
+        </div>
+        <div class="edu-table">
           <table>
             <caption>Academic record</caption>
             <thead>
               <tr>
                 <th>Qualification</th>
-                <th>Institution or board</th>
                 <th>Result</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>B.Tech, Information Technology</td>
-                <td>Manipal Institute of Technology, 2024 to 2028</td>
-                <td><abbr title="Cumulative Grade Point Average">CGPA</abbr> 8.79 / 10</td>
+                <td>B.Tech IT, MIT Manipal</td>
+                <td>8.79 / 10</td>
               </tr>
               <tr>
-                <td>Class XII</td>
-                <td>CBSE</td>
+                <td>Class XII, CBSE</td>
                 <td>94%</td>
               </tr>
               <tr>
-                <td>Class X</td>
-                <td>CBSE</td>
+                <td>Class X, CBSE</td>
                 <td>96.4%</td>
               </tr>
             </tbody>
           </table>
         </div>
-        <p><abbr title="Manipal Entrance Test">MET</abbr> 2024: All India Rank 1903 among more than 1,00,000 candidates, with a merit scholarship.</p>
-        <p>Coursework so far includes Data Structures and Algorithms, Operating Systems, Computer Networks, Database Management Systems, Object-Oriented Programming and Software Engineering.</p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="experience">
-      <h2>Experience</h2>
-      <div class="content">
+  <section id="experience">
+    <div class="container">
+      <div class="section-head"><h2>Experience</h2></div>
+      <div class="row">
 
-        <article class="entry">
-          <h3>Full-Stack Developer, Self Tech</h3>
-          <p class="meta">October 2024 to May 2025, Chennai</p>
-          <p>Worked in a founding-stage product team on a mobile app for reporting people living on the streets and connecting them to shelters and work opportunities. I built the app in React Native and wrote the Node.js and Express backend with REST APIs and JWT authentication.</p>
-        </article>
+        <div class="half">
+          <h3>Work</h3>
+          <div class="timeline">
 
-        <article class="entry">
-          <h3>Vice Chairperson, E-Cell, MIT Manipal</h3>
-          <p class="meta">August 2026 to present. Marketing Executive from August 2025 to August 2026.</p>
-          <p>Led a team of about 20 associates and grew the E-Cell page from 3.6K to 4.6K followers. Helped organise the Innovation Policy Consortium, which brought together more than 12 colleges and drafted a policy paper endorsed by the Manipal Bio Incubator and the Innovation Centre, MIT Manipal.</p>
-        </article>
+            <article class="t-item">
+              <span class="dot"></span>
+              <p class="when"><span>October 2024 to May 2025</span></p>
+              <h4>Full-Stack Developer</h4>
+              <p class="org">Self Tech, founding-stage product team, Chennai</p>
+              <ul>
+                <li>Built a cross-platform React Native app for iOS and Android that reports people living on the streets and connects them to shelters and skilling opportunities.</li>
+                <li>Designed the Node.js and Express backend with RESTful APIs and JWT authentication.</li>
+                <li>Worked with the founding team on architecture, feature scoping and design iteration in an agile workflow.</li>
+              </ul>
+            </article>
 
-        <article class="entry">
-          <h3>Managing Committee Member, The Consultancy Club</h3>
-          <p class="meta">September 2024 to August 2026, MIT Manipal</p>
-          <p>Ran operations for a national case competition that drew more than 300 teams.</p>
-        </article>
+            <article class="t-item">
+              <span class="dot"></span>
+              <p class="when"><span>2024 to present</span></p>
+              <h4>Freelance Designer and Video Editor</h4>
+              <p class="org">Independent contractor</p>
+              <ul>
+                <li>Produce promotional videos and branded graphics for commercial clients, including The Indian Kitchen.</li>
+                <li>Own the full client cycle: requirements, proposal, revisions and delivery.</li>
+              </ul>
+            </article>
 
-        <article class="entry">
-          <h3>Freelance graphic design and video editing</h3>
-          <p class="meta">2024 to present</p>
-          <p>Promotional videos and branded graphics for commercial clients, from first brief to final delivery.</p>
-        </article>
+          </div>
+        </div>
+
+        <div class="half">
+          <h3>Leadership</h3>
+          <div class="timeline">
+
+            <article class="t-item">
+              <span class="dot"></span>
+              <p class="when"><span>August 2026 to present</span></p>
+              <h4>Vice Chairperson</h4>
+              <p class="org">E-Cell, MIT Manipal</p>
+              <ul>
+                <li>Serve on the board of the institute's Entrepreneurship Cell after a year as Marketing Executive.</li>
+              </ul>
+            </article>
+
+            <article class="t-item">
+              <span class="dot"></span>
+              <p class="when"><span>August 2025 to August 2026</span></p>
+              <h4>Marketing Executive</h4>
+              <p class="org">E-Cell, MIT Manipal</p>
+              <ul>
+                <li>Led about 20 associates across the planning and content teams.</li>
+                <li>Grew the E-Cell page from 3.6K to 4.6K followers, a 28% increase.</li>
+                <li>Helped organise the Innovation Policy Consortium, which convened more than 12 colleges and drafted a policy paper endorsed by the Manipal Bio Incubator and the Innovation Centre, MIT Manipal.</li>
+                <li>Hosted flagship shows and helped run pitch competitions with a combined prize pool above &#8377;4 lakh.</li>
+              </ul>
+            </article>
+
+            <article class="t-item">
+              <span class="dot"></span>
+              <p class="when"><span>September 2024 to August 2026</span></p>
+              <h4>Managing Committee Member</h4>
+              <p class="org">The Consultancy Club, MIT Manipal</p>
+              <ul>
+                <li>Ran operations for a national case competition with more than 300 teams.</li>
+                <li>Structured a &#8377;1.3 lakh sponsorship with ChangePay around its goal of reaching new campuses.</li>
+              </ul>
+            </article>
+
+          </div>
+        </div>
 
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="content">
+  <section id="projects" class="band">
+    <div class="container">
+      <div class="section-head"><h2>Projects</h2></div>
 
-        <article class="entry">
+      <article class="project">
+        <div class="project-side bg-lavender">
+          <p class="rank">Top 10</p>
+          <p class="event">Finalist among 350+ teams, Microsoft AI Unlocked 2026</p>
+        </div>
+        <div class="project-body">
           <h3>Bharat Setu</h3>
-          <p class="award">Finalist, top 10 of 350+ teams, Microsoft AI Unlocked 2026</p>
-          <p>A React Native app that connects citizens with local government. People report a civic problem with a photo, track it until it is resolved, ask questions about government processes and check which schemes they qualify for, in about 22 Indian languages. Built on Microsoft Azure with the Bhashini language API.</p>
-          <p><a href="https://github.com/prathamg07/bharat_setu">Code on GitHub</a> and <a href="https://www.youtube.com/watch?v=hgXh4RT7AJc">demo video on YouTube</a></p>
-        </article>
+          <p class="tagline">An AI access platform between citizens and government</p>
+          <p class="desc">A React Native app built by a team of three. People report a civic problem with a photo, the app classifies and routes it, and they track it to resolution. It also answers questions about government processes, explains official documents and lists the schemes a person qualifies for, in about 22 Indian languages.</p>
+          <ul class="tags">
+            <li>React Native</li>
+            <li>Azure OpenAI</li>
+            <li>Azure AI Search</li>
+            <li>Azure AI Vision</li>
+            <li>Bhashini API</li>
+          </ul>
+          <div class="actions">
+            <a class="btn btn-small" href="https://github.com/prathamg07/bharat_setu">Code on GitHub</a>
+            <a class="btn btn-small btn-light" href="https://www.youtube.com/watch?v=hgXh4RT7AJc">Watch the demo</a>
+          </div>
+        </div>
+      </article>
 
-        <article class="entry">
+      <article class="project">
+        <div class="project-side bg-mint">
+          <p class="rank">1st place</p>
+          <p class="event">Aurora ISTE Hackathon, January 2026</p>
+        </div>
+        <div class="project-body">
           <h3>Knowva</h3>
-          <p class="award">First place, Aurora ISTE Hackathon, January 2026</p>
-          <p>An interview preparation platform for students. It generates mock interview questions for a chosen job profile, scores the answers and builds a learning roadmap for the target role.</p>
-          <p><a href="https://github.com/prathamg07/Knowva">Code on GitHub</a></p>
-        </article>
+          <p class="tagline">Interview preparation for students facing placements</p>
+          <p class="desc">Built by a team of four. Knowva generates mock interview questions for a chosen job profile, scores each answer, reads facial emotion from the webcam to gauge confidence and builds a roadmap for the target role.</p>
+          <ul class="tags">
+            <li>Mock interviews</li>
+            <li>Answer scoring</li>
+            <li>Emotion detection</li>
+            <li>Resume builder</li>
+          </ul>
+          <div class="actions">
+            <a class="btn btn-small" href="https://github.com/prathamg07/Knowva">Code on GitHub</a>
+          </div>
+        </div>
+      </article>
 
-        <article class="entry">
+      <article class="project">
+        <div class="project-side bg-peach">
+          <p class="rank">1st place</p>
+          <p class="event">Design and Product, IECSE Hackathon, July 2025</p>
+        </div>
+        <div class="project-body">
           <h3>GreenGrid</h3>
-          <p class="award">First place in Design and Product, IECSE Hackathon, July 2025</p>
-          <p>An app that sets community recycling goals and rewards people as they contribute to them.</p>
-          <p><a href="https://github.com/prathamg07/greengrid">Code on GitHub</a></p>
-        </article>
+          <p class="tagline">Recycling goals with rewards for the people who meet them</p>
+          <p class="desc">A working app that sets community and social impact goals around waste recycling, then rewards users as they contribute towards those goals and complete them.</p>
+          <ul class="tags">
+            <li>Community goals</li>
+            <li>Rewards</li>
+            <li>Waste recycling</li>
+          </ul>
+          <div class="actions">
+            <a class="btn btn-small" href="https://github.com/prathamg07/greengrid">Code on GitHub</a>
+          </div>
+        </div>
+      </article>
 
-        <article class="entry">
-          <h3>Runway segmentation</h3>
-          <p class="award">Top 10, Honeywell Hackathon, September 2025</p>
-          <p>A U-Net model with a ResNet backbone, trained in PyTorch, that outlines airport runways in aerial images to assist pilots. I handled data preparation, training and evaluation.</p>
-        </article>
+      <article class="project">
+        <div class="project-side bg-sky">
+          <p class="rank">Top 10</p>
+          <p class="event">Honeywell Hackathon, September 2025</p>
+        </div>
+        <div class="project-body">
+          <h3>Runway Segmentation</h3>
+          <p class="tagline">Outlining airport runways in aerial images for pilot assistance</p>
+          <p class="desc">A U-Net model with a ResNet backbone, trained with a combined Dice and binary cross-entropy loss. I owned data preparation, augmentation, training and evaluation, and found that data volume and compute, not the architecture, were what limited further accuracy.</p>
+          <ul class="tags">
+            <li>PyTorch</li>
+            <li>U-Net</li>
+            <li>Albumentations</li>
+            <li>OpenCV</li>
+          </ul>
+        </div>
+      </article>
 
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <div class="section-head"><h2>Skills</h2></div>
+
+      <div class="row">
+        <div class="half">
+          <div class="skill bg-lavender">
+            <h3>Programming languages</h3>
+            <ul class="tags">
+              <li>Python</li>
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>C</li>
+              <li>C++</li>
+            </ul>
+          </div>
+        </div>
+        <div class="half">
+          <div class="skill bg-mint">
+            <h3>Frameworks and libraries</h3>
+            <ul class="tags">
+              <li>React</li>
+              <li>React Native</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>PyTorch</li>
+              <li>OpenCV</li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </section>
 
-    <section id="skills">
-      <h2>Skills</h2>
-      <div class="content">
-
-        <h3 class="group">Programming languages</h3>
-        <ul class="tags">
-          <li>Python</li>
-          <li>Java</li>
-          <li>JavaScript</li>
-          <li>C</li>
-          <li>C++</li>
-        </ul>
-
-        <h3 class="group">Frameworks and libraries</h3>
-        <ul class="tags">
-          <li>React</li>
-          <li>React Native</li>
-          <li>Node.js</li>
-          <li>Express.js</li>
-          <li>PyTorch</li>
-          <li>OpenCV</li>
-        </ul>
-
-        <h3 class="group">Cloud and tools</h3>
-        <ul class="tags">
-          <li>Microsoft Azure</li>
-          <li>GitHub</li>
-          <li>Figma</li>
-          <li>Postman</li>
-          <li>Microsoft Excel</li>
-        </ul>
-
-        <h3 class="group">Spoken languages</h3>
-        <ul class="tags">
-          <li>English</li>
-          <li>Hindi</li>
-          <li>Tamil</li>
-        </ul>
-
+      <div class="row">
+        <div class="half">
+          <div class="skill bg-peach">
+            <h3>Microsoft Azure and AI</h3>
+            <ul class="tags">
+              <li>Azure OpenAI</li>
+              <li>AI Search</li>
+              <li>AI Vision</li>
+              <li>AI Speech</li>
+              <li>Bhashini API</li>
+            </ul>
+          </div>
+        </div>
+        <div class="half">
+          <div class="skill bg-sky">
+            <h3>Tools</h3>
+            <ul class="tags">
+              <li>GitHub</li>
+              <li>Figma</li>
+              <li>Postman</li>
+              <li>Microsoft Excel</li>
+              <li>PowerPoint</li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </section>
 
-    <section id="interests">
-      <h2>Interests</h2>
-      <div class="content">
-        <ul class="tags">
-          <li>Watching movies</li>
-          <li>Cricket</li>
-          <li>Drawing</li>
-          <li>Listening to music</li>
+    </div>
+  </section>
+
+  <section id="interests" class="band">
+    <div class="container">
+      <div class="section-head"><h2>Interests</h2></div>
+      <ul class="tiles">
+        <li class="bg-lavender">Movies</li>
+        <li class="bg-mint">Cricket</li>
+        <li class="bg-peach">Drawing</li>
+        <li class="bg-sky">Music</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="contact-panel">
+        <div class="contact-text">
+          <h2>Get in touch</h2>
+          <p>I am looking for Summer 2027 software engineering internships. Email is the fastest way to reach me.</p>
+        </div>
+        <ul class="contact-links">
+          <li>
+            <span class="label">Email</span>
+            <a href="mailto:pratham.pg04@gmail.com">pratham.pg04@gmail.com</a>
+          </li>
+          <li>
+            <span class="label">LinkedIn</span>
+            <a href="https://www.linkedin.com/in/prathamgupta4">linkedin.com/in/prathamgupta4</a>
+          </li>
+          <li>
+            <span class="label">GitHub</span>
+            <a href="https://github.com/prathamg07">github.com/prathamg07</a>
+          </li>
         </ul>
       </div>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <div class="content">
-        <dl class="contact">
-          <dt>Email</dt>
-          <dd><a href="mailto:pratham.pg04@gmail.com">pratham.pg04@gmail.com</a></dd>
-          <dt>LinkedIn</dt>
-          <dd><a href="https://www.linkedin.com/in/prathamgupta4">linkedin.com/in/prathamgupta4</a></dd>
-          <dt>GitHub</dt>
-          <dd><a href="https://github.com/prathamg07">github.com/prathamg07</a></dd>
-        </dl>
-      </div>
-    </section>
-
-  </div>
+    </div>
+  </section>
 
   <footer>
     <div class="container">
-      <p>&copy; 2026 Pratham Gupta. <a href="#top">Back to top</a></p>
+      <p class="foot-left">&copy; 2026 Pratham Gupta</p>
+      <p class="foot-right"><a href="#top">Back to top</a></p>
     </div>
   </footer>
 
