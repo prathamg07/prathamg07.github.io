@@ -1,0 +1,335 @@
+/* Profile page: Pratham Gupta */
+
+/* ---------- Base ---------- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Cambria, Georgia, "Times New Roman", serif;
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: #1d2433;
+  background-color: #ffffff;
+}
+
+h1, h2, h3, nav, table, footer, .meta, .award, .tags, .contact dt {
+  font-family: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  line-height: 1.2;
+  color: #12284a;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.15rem;
+}
+
+p {
+  margin: 0 0 1rem 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---------- Links ---------- */
+
+a:link {
+  color: #12284a;
+}
+
+a:visited {
+  color: #4a3f6b;
+}
+
+a:hover {
+  color: #b3202a;
+}
+
+a:focus {
+  outline: 2px solid #b3202a;
+}
+
+a[href^="mailto"] {
+  font-weight: bold;
+}
+
+/* ---------- Page width ---------- */
+
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* ---------- Navigation ---------- */
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #ffffff;
+  border-bottom: 2px solid #12284a;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0.75rem 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 1.25rem;
+}
+
+nav a:link,
+nav a:visited {
+  font-size: 0.95rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #12284a;
+}
+
+nav a:hover {
+  color: #b3202a;
+  text-decoration: underline;
+}
+
+/* ---------- Header ---------- */
+
+header {
+  padding: 4rem 0 3.5rem 0;
+  background-color: #12284a;
+  color: #ffffff;
+}
+
+header .container {
+  overflow: auto;
+}
+
+header h1 {
+  margin-bottom: 1rem;
+  font-size: 3.25rem;
+  color: #ffffff;
+}
+
+.photo {
+  float: right;
+  width: 190px;
+  height: 190px;
+  margin: 0 0 1rem 2.5rem;
+  border: 4px solid #ffffff;
+  border-radius: 50%;
+}
+
+.intro {
+  max-width: 36rem;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.place {
+  margin-bottom: 0;
+  color: #c5d0e0;
+}
+
+/* ---------- Sections: label on the left, content on the right ---------- */
+
+section {
+  padding: 4rem 0 2rem 0;
+  border-top: 1px solid #d5dbe5;
+  overflow: auto;
+}
+
+section h2 {
+  float: left;
+  width: 24%;
+  padding-left: 0.75rem;
+  border-left: 4px solid #b3202a;
+  font-size: 1.35rem;
+}
+
+.content {
+  float: right;
+  width: 72%;
+}
+
+.content p {
+  max-width: 36rem;
+}
+
+/* ---------- Experience and project entries ---------- */
+
+.entry {
+  margin-bottom: 1.75rem;
+}
+
+.meta {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #55607a;
+}
+
+.award {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #b3202a;
+}
+
+/* ---------- Education table ---------- */
+
+.table-wrap {
+  margin-bottom: 1rem;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+caption {
+  padding-bottom: 0.5rem;
+  text-align: left;
+  font-weight: bold;
+  color: #12284a;
+}
+
+th, td {
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #d5dbe5;
+  text-align: left;
+}
+
+th {
+  background-color: #12284a;
+  color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #eef2f7;
+}
+
+/* ---------- Skill and interest tags ---------- */
+
+.group {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.tags {
+  list-style-type: none;
+  margin: 0 0 1.25rem 0;
+  padding: 0;
+  overflow: auto;
+}
+
+.tags li {
+  float: left;
+  margin: 0 0.5rem 0.5rem 0;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid #12284a;
+  border-radius: 3px;
+  background-color: #eef2f7;
+  font-size: 0.9rem;
+}
+
+/* ---------- Contact ---------- */
+
+.contact {
+  margin: 0;
+}
+
+.contact dt {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #55607a;
+}
+
+.contact dd {
+  margin: 0 0 0.9rem 0;
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+  margin-top: 2rem;
+  padding: 1.5rem 0;
+  background-color: #12284a;
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a:link,
+footer a:visited {
+  color: #ffffff;
+}
+
+footer a:hover {
+  color: #f0c9cc;
+}
+
+footer a:focus {
+  outline: 2px solid #ffffff;
+}
+
+/* ---------- Small screens: the one rule from outside the slides ---------- */
+
+@media (max-width: 760px) {
+  nav {
+    position: static;
+  }
+
+  nav li {
+    margin-right: 0.9rem;
+  }
+
+  header {
+    padding: 2.5rem 0;
+  }
+
+  header h1 {
+    font-size: 2.25rem;
+  }
+
+  .photo {
+    float: none;
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 0 0 1.5rem 0;
+  }
+
+  .intro {
+    font-size: 1.1rem;
+  }
+
+  section {
+    padding-top: 2.5rem;
+  }
+
+  section h2 {
+    float: none;
+    width: auto;
+    margin-bottom: 1rem;
+  }
+
+  .content {
+    float: none;
+    width: auto;
+  }
+}
